@@ -1,0 +1,45 @@
+.table>tbody>tr.danger>td, .table>tbody>tr.danger>th, .table>tbody>tr>td.danger, .table>tbody>tr>th.danger, .table>tfoot>tr.danger>td, .table>tfoot>tr.danger>th, .table>tfoot>tr>td.danger, .table>tfoot>tr>th.danger, .table>thead>tr.danger>td, .table>thead>tr.danger>th, .table>thead>tr>td.danger, .table>thead>tr>th.danger {
+  background-color: #f96868;
+}
+.table-hover>tbody>tr.danger:hover>td, .table-hover>tbody>tr.danger:hover>th, .table-hover>tbody>tr:hover>.danger, .table-hover>tbody>tr>td.danger:hover, .table-hover>tbody>tr>th.danger:hover {
+  background-color: #ec5757;
+}
+.table>tbody>tr.warning>td, .table>tbody>tr.warning>th, .table>tbody>tr>td.warning, .table>tbody>tr>th.warning, .table>tfoot>tr.warning>td, .table>tfoot>tr.warning>th, .table>tfoot>tr>td.warning, .table>tfoot>tr>th.warning, .table>thead>tr.warning>td, .table>thead>tr.warning>th, .table>thead>tr>td.warning, .table>thead>tr>th.warning {
+  background-color: #f2a654;
+}
+.table-hover>tbody>tr.warning:hover>td, .table-hover>tbody>tr.warning:hover>th, .table-hover>tbody>tr:hover>.warning, .table-hover>tbody>tr>td.warning:hover, .table-hover>tbody>tr>th.warning:hover {
+  background-color: #e69d4e;
+}
+.table-hover>tbody>tr.info:hover>td, .table-hover>tbody>tr.info:hover>th, .table-hover>tbody>tr:hover>.info, .table-hover>tbody>tr>td.info:hover, .table-hover>tbody>tr>th.info:hover {
+  background-color: #4caab5;
+}
+.table>tbody>tr.info>td, .table>tbody>tr.info>th, .table>tbody>tr>td.info, .table>tbody>tr>th.info, .table>tfoot>tr.info>td, .table>tfoot>tr.info>th, .table>tfoot>tr>td.info, .table>tfoot>tr>th.info, .table>thead>tr.info>td, .table>thead>tr.info>th, .table>thead>tr>td.info, .table>thead>tr>th.info {
+  background-color: #57c7d4;
+}
+.panel{
+  position: relative;
+  margin-bottom: 30px;
+  border-width: 0;
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.panel-body {
+  padding: 30px 30px;
+}
+.table .danger{
+  color: #fff;
+}
+.table .warning{
+  color: #fff;
+}
+.table .info{
+  color: #fff;
+}
+.table>tbody>tr>td{
+  border: 0;
+}
+.page-header{
+  margin-top: 0;
+}

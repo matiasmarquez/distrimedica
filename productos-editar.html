@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Distrimedica S.A.</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/png" href="imagenes/icon.png"/>
+        <link rel="stylesheet" type="text/css" href="libs/bootstrap/3.3.7/css/bootstrap-theme.min.css"/>
+        <link rel="stylesheet" type="text/css" href="libs/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" type="text/css" href="estilos/icons.css"/>
+        <link rel="stylesheet" type="text/css" href="libs/nestable/1.3.1/jquery.nestable.min.css"/>
+        <link rel="stylesheet" type="text/css" href="estilos/estilos.css"/>
+        <link rel="stylesheet" type="text/css" href="estilos/responsive-768.css"/>
+        <script type="text/javascript" src="libs/jquery/3.2.1/jquery-3.2.1.min.js"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div class="menu-superior-contenedor">
+                <div class="menu-superior">
+                    <div class="menu-superior-contenido">
+                        <button class="boton-menu-mobile">
+                            <i class="zmdi zmdi-menu"></i>
+                        </button>
+                        <h2 class="menu-superior-titulo">Edición de producto</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-side-menu">
+                <div class="brand">
+                    <img src="imagenes/logo.png" class="img-responsive nav-side-logo" alt="Distrimédica"/>
+                </div>
+                <div class="nav-side-scrolleable">
+                    <div class="menu-usuario-box">
+                        <div class="menu-usuario-icono-contenedor">
+                            <i class="zmdi zmdi-account menu-usuario-icono"></i>
+                        </div>
+                        <h5 class="menu-usuario-nombre">Usuario</h5>
+                    </div>
+                    <div class="menu-list">
+                        <ul id="menu-content" class="menu-content">
+                            <li class="menu-title text-muted">
+                                Navegación
+                            </li>
+                            <li>
+                                <a href="index.html" class="waves-effect">
+                                   <i class="zmdi zmdi-home"></i> Inicio 
+                                </a>
+                            </li>
+                            <li  data-toggle="collapse" data-target="#sub-menu-pedidos" class="">
+                                <a href="#" class="waves-effect">
+                                    <i class="zmdi zmdi-format-list-bulleted"></i> Pedidos <span class="menu-arrow"></span>
+                                 </a>
+                            </li>
+                            <ul class="sub-menu collapse" id="sub-menu-pedidos">
+                                <li><a href="pedidos-alta.html"><i class="zmdi zmdi-fire"></i> Alta</a></li>
+                                <li><a href="pedidos-lista.html"><i class="zmdi zmdi-view-list-alt"></i> Listar</a></li>
+                            </ul>
+                            <li data-toggle="collapse" data-target="#service" class="collapsed">
+                                <a href="#" class="waves-effect active">
+                                    <i class="zmdi zmdi-collection-item"></i> Productos <span class="menu-arrow"></span>
+                                </a>
+                            </li>  
+                            <ul class="sub-menu collapse in" id="service">
+                                <li data-toggle="collapse" data-target="#sub-menu-producto" class="collapsed">
+                                    <a href="#" class="active"><i class="zmdi zmdi-square-o"></i> Producto <span class="menu-arrow"></span></a>
+                                </li>
+                                <ul class="sub-menu sub-menu-2 collapse in" id="sub-menu-producto">
+                                    <li><a href="productos-alta.html"><i class="zmdi zmdi-fire"></i> Alta</a></li>
+                                    <li><a href="productos-lista.html"><i class="zmdi zmdi-view-list-alt"></i> Listar</a></li>
+                                </ul>
+                                <li data-toggle="collapse" data-target="#sub-menu-marca" class="collapsed">
+                                    <a href="#"><i class="zmdi zmdi-label"></i> Marca <span class="menu-arrow"></span></a>
+                                </li>
+                                <ul class="sub-menu sub-menu-2 collapse" id="sub-menu-marca">
+                                    <li><a href="marcas-alta.html"><i class="zmdi zmdi-fire"></i> Alta</a></li>
+                                    <li><a href="marcas-lista.html"><i class="zmdi zmdi-view-list-alt"></i> Listar</a></li>
+                                </ul>
+                            </ul>
+                            <li data-toggle="collapse" data-target="#sub-menu-publicidades" class="collapsed">
+                                <a href="#" class="waves-effect"> 
+                                    <i class="zmdi zmdi-book"></i> Publicidades <span class="menu-arrow"></span>
+                                </a>
+                            </li>
+                            <ul class="sub-menu collapse" id="sub-menu-publicidades">
+                                <li><a href="publicidades-alta.html"><i class="zmdi zmdi-fire"></i> Alta</a></li>
+                                <li><a href="publicidades-lista.html"><i class="zmdi zmdi-view-list-alt"></i> Listar</a></li>
+                                <li><a href="publicidades-enviar.html"><i class="zmdi zmdi-email"></i> Enviar</a></li>
+                            </ul>
+                            <li>
+                                <a href="lista-precios.html" class="waves-effect">
+                                    <i class="zmdi zmdi-money"></i> Lista de precios 
+                                </a>
+                            </li>
+                            <li>
+                                <a href="estadisticas.html" class="waves-effect">
+                                    <i class="zmdi zmdi-chart"></i> Estadísticas 
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>    
+            </div>
+            <div class="contenido-pagina">
+                <div class="contenido">
+                    <div class="container-auto">
+                        <div class="caja">
+                            <h4 class="caja-header">Editar Producto</h4>
+                            <form>
+                                <div class="form-group">
+                                    <label>Nombre</label>
+                                    <input type="text" class="form-control" value="Ibuprofeno 600"/>
+                                </div>
+                                <div class="form-group">
+                                    <label>Descripción</label>
+                                    <textarea rows="5" class="form-control"/>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label>Marca</label>
+                                    <select class="form-control">
+                                        <option disabled="disabled">[Seleccionar marca...]</option>
+                                        <option selected="selected">Bayer</option>
+                                        <option>Amoxil</option>
+                                        <option>Drawer</option>
+                                        <option>Farmanet</option>
+                                        <option>Lemax</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Precio</label>
+                                    <input type="number" class="form-control" value="83"/>
+                                </div>
+                                <div class="form-group text-right form-group-ultimo">
+                                    <a href="#" class="boton boton-success boton-borde boton-guardar waves-effect waves-light">Guardar producto</a>
+                                </div>  
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="scripts/distrimedica-general.js"></script>   
+        <script type="text/javascript" src="libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="libs/nestable/1.3.1/jquery.nestable.min.js"></script>
+        <script type="text/javascript" src="libs/slimScroll/jquery.slimscroll.js"></script>
+        <script type="text/javascript" src="libs/waves/waves.js"></script>
+    </body>
+</html>

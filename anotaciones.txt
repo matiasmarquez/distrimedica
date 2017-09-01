@@ -1,0 +1,91 @@
+OPCIONES MENÚ:
+========================================================
+- Inicio
+- Pedidos:
+	Pedido:
+		- Alta
+		- Listar = Inicio
+- Productos:
+	Producto:
+		- Alta
+		- Listar
+	Marca:
+		- Alta
+		- Listar
+- Publicidades
+	Publicidad:
+		- Alta
+		- Listar
+	Clientes:
+		- Listar (REVISAR)
+- Lista de precios
+- Estadísticas	
+	
+
+
+SECCIONES:
+========================================================
+Sección inicio de sesión
+
+Sección inicio:
+	- Listado de pedidos
+	- Estados de pedidos: 
+		- Activo
+		- Suspendido
+		- Finalizado
+	- Modal pedidos
+		- Checkbox de tareas
+	- Botón editar
+	- Botón borrar
+
+Sección pedidos:
+	Alta:
+		- Formulario
+		- Boton "Enviar pedido"
+	Edición:
+		- Formulario (igual al de alta)
+Sección productos:
+	Alta:
+		- Formulario
+		- Botón "Alta de producto"
+	Listado:
+		- Listado de productos
+		- Filtros
+		- Botón editar
+		- Botón borrar
+		- Botón exportación
+		- Botón importación
+	Edición:
+		- Formulario
+		- Botón "Editar producto"
+Sección marcas:
+	Alta:
+		- Formulario
+		- Botón "Alta de marca"
+	Listado:
+		- Listado de marcas
+		- Botón editar
+		- Botón borrar
+	Edición:
+		- Formulario
+		- Botón "Editar marca"
+Sección publicidades:
+	Alta:
+		- Formulario
+		- Botón "Alta de publicidad"
+	Listado:
+		- Listado de publicidades
+		- Botón editar
+		- Botón borrar
+	Edición:
+		- Formulario
+		- Botón "Editar publicidad"
+Sección lista de precios de productos:
+	- Listado de productos
+	- Filtros
+Sección estadísticas:
+	- Estadisticas generales
+	- Estadisticas por ventas
+	- Estadisticas de clientes
+	- Estadisticas de productos más vendidos
+	
