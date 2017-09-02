@@ -215,7 +215,7 @@ a:focus {
     border: 1px solid #e4eaec;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
-    max-width: 140px;
+    max-width: 90px;
 }
 .dd-precio{
     display: inline-block;
