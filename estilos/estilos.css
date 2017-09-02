@@ -293,7 +293,7 @@ a:focus {
   top: 75px;
   font-weight: normal;
   background-color: #2f353f;
-  width: 260px;
+  width: 100%;
   height: 100%;
   color: #838F9A;
   box-shadow: 0 0px 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
@@ -622,6 +622,12 @@ a.pedido-boton i{
 **********************************************************/
 .publicidades-operaciones{
     padding: 0 20px;
+}
+.publicidades-operaciones a{
+    margin-bottom: 5px;
+}
+.publicidad-envio{
+    border-bottom: 1px solid #eee;
 }
 .publicidad-envios{
     border: 1px solid #eee;
@@ -1021,6 +1027,15 @@ label{
     Fin pedidos
 **********************************************************/
 /**********************************************************
+    Estadisticas
+**********************************************************/
+.flot-chart{
+    height: 120px !important;
+}
+/**********************************************************
+    Fin estadisticas
+**********************************************************/
+/**********************************************************
     Listado
 **********************************************************/
 .tabla-listado-imagen{
@@ -1030,6 +1045,7 @@ label{
   margin-top: 20px;
 }
 .listado-operaciones-superiores{
+  display: none;
   height: 70px;
   padding-top: 17.5px;
 }
@@ -1043,6 +1059,13 @@ label{
 .listado-operaciones-superiores .boton-default:hover,
 .listado-operaciones-superiores .boton-default:focus{
   color: #333;
+}
+table .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-radius: 2px !important;
+    margin-bottom: 5px;
+}
+table .btn-group > .btn:last-child:not(:first-child) {
+    border-radius: 2px !important;
 }
 /**********************************************************
     Fin listado
