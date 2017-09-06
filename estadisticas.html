@@ -12,6 +12,8 @@
         <link rel="stylesheet" type="text/css" href="libs/nestable/1.3.1/jquery.nestable.min.css"/>
         <link rel="stylesheet" type="text/css" href="estilos/estilos.css"/>
         <link rel="stylesheet" type="text/css" href="estilos/responsive-768.css"/>
+        <link rel="stylesheet" type="text/css" href="estilos/responsive-992.css"/>
+        <link rel="stylesheet" type="text/css" href="estilos/responsive-1200.css"/>
         <script type="text/javascript" src="libs/jquery/3.2.1/jquery-3.2.1.min.js"></script>
     </head>
     <body>
@@ -106,33 +108,33 @@
                     <div class="container-auto">
                         <div class="caja">
                             <h4 class="caja-header">Estadísticas</h4>
-                            <ul class="nav nav-tabs nav-justified">
+                            <ul class="nav nav-tabs estadisticas-tabs nav-justified">
                                 <li class="active">
+                                    <a href="#productos" data-toggle="tab" aria-expanded="false">Productos más vendidos</a>
+                                </li>
+                                <li>
                                     <a href="#ventas" data-toggle="tab" aria-expanded="true">Ver por ventas</a>
                                 </li>
                                 <li>
                                     <a href="#clientes" data-toggle="tab" aria-expanded="false">Ver por clientes</a>
                                 </li>
-                                <li>
-                                    <a href="#productos" data-toggle="tab" aria-expanded="false">Productos más vendidos</a>
-                                </li>
                             </ul>
                             <div class="tab-content">
-                                <div role="tabpanel" class="tab-pane fade active in" id="ventas">
+                                <div role="tabpanel" class="tab-pane fade active in" id="productos">
                                     <div class="donut-chart">
-                                        <div id="donut-chart-container-ventas" class="flot-chart" style="height: 260px;">
+                                        <div id="donut-chart-container-productos" class="flot-chart donut-chart-container" style="width: 550px; height: 363px;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade" id="ventas">
+                                    <div class="donut-chart">
+                                        <div id="donut-chart-container-ventas" class="flot-chart donut-chart-container" style="width: 550px; height: 363px;">
                                         </div>
                                     </div>
                                 </div>
                                 <div role="tabpanel" class="tab-pane fade" id="clientes">
                                     <div class="donut-chart">
-                                        <div id="donut-chart-container-clientes" class="flot-chart" style="height: 260px;">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div role="tabpanel" class="tab-pane fade" id="productos">
-                                    <div class="donut-chart">
-                                        <div id="donut-chart-container-productos" class="flot-chart" style="height: 260px;">
+                                        <div id="donut-chart-container-clientes" class="flot-chart donut-chart-container" style="width: 550px; height: 363px;">
                                         </div>
                                     </div>
                                 </div>

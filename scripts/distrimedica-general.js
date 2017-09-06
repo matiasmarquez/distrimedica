@@ -135,8 +135,8 @@ $(document).ready(function (){
                     return '<div style="font-size:14px;">&nbsp;' + label + '</div>'
                 },
                 labelBoxBorderColor : null,
-                margin : 50,
-                width : 20,
+                margin : 20,
+                width : 50,
                 padding : 1
             },
             grid : {

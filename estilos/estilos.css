@@ -273,14 +273,6 @@ a:focus {
     border-radius: 3px !important;
     border: 0 !important;
 }
-.donut-chart{
-    max-width: 700px;
-    margin: 0 auto;
-}
-.flot-chart{
-    min-width: 400px;
-    width: 420px;
-}
 /**********************************************************
     Fin general
 **********************************************************/
@@ -1029,8 +1021,20 @@ label{
 /**********************************************************
     Estadisticas
 **********************************************************/
+.donut-chart-container{
+    margin: 0 auto;
+}
 .flot-chart{
-    height: 120px !important;
+    width: 200px !important;
+    height: 143px !important;
+}
+.donut-chart .legend > div,
+.donut-chart table{
+    right: -40px !important;
+    
+}
+.donut-chart .legendLabel div{
+    font-size: 10px !important;
 }
 /**********************************************************
     Fin estadisticas
